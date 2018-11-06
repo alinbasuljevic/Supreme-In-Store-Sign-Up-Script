@@ -26,8 +26,8 @@ class Task_Info(object):
     def sign_up(self):
 
         input ('Press Enter to Start the Script...')
-
-        checkout_profile_path = ('C:\\Users\\Head Chef Alin\\Desktop\\Supreme Sign-Up Script\\billing profiles\\'+ self.billing_profile)
+        #### EDIT THE BILLING PROFILE FOLDER PATH BELOW ####
+        checkout_profile_path = ('C:\\Users\\Example\\Desktop\\Supreme Sign-Up Script\\billing profiles\\'+ self.billing_profile)
         final_checkout_profile_path = (checkout_profile_path + '.json')
         with open(final_checkout_profile_path) as data_file:
             active_profile = json.loads(data_file.read())

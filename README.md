@@ -24,3 +24,4 @@ Run the script.
 
 In order for the script to work, you must create a billing profile first. It prompts you through the creation process once you start the script.
 
+Script should run on both Windows and MacOS as long as you have Python 3 and the corresponding libraries installed.

@@ -166,7 +166,6 @@ class Task_Info(object):
                 break
             
         secondary_page = True
-        time.sleep(10)
         while secondary_page:
             try:
                 driver.execute_script("document.getElementById('customer_street').setAttribute('value', '" + active_profile['Billing Address'] + "')")

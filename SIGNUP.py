@@ -221,6 +221,7 @@ def billing_profile_creation():
             "Expiration Year": expiration_year,
             "Security Code": cvv
             }
+        ##### EDIT THE BILLING PROFILE FOLDER PATH HERE AS WELL ####
         save_path = 'C://Users//Head Chef Alin//Desktop//Supreme Sign-Up Script//billing profiles'
         print ('')
         file_name = input('Enter file name: ')
